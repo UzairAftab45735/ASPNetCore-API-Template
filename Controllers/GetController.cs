@@ -8,7 +8,7 @@ namespace ASPNetCore_API_Template.Controllers
     [ApiController]
     public class GetController : ControllerBase
     {
-        [HttpGet ("ping")]
+        [HttpGet ("ping2")]
         public IActionResult Ping() 
         {
             return Ok("This is a GET API with status code 200.");
